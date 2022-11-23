@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>    <link rel="stylesheet" href="css/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/fontawesome.min.js" integrity="sha512-j3gF1rYV2kvAKJ0Jo5CdgLgSYS7QYmBVVUjduXdoeBkc4NFV4aSRTi+Rodkiy9ht7ZYEwF+s09S43Z1Y+ujUkA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+   <!--Nav bar-->
+<div class="bg-image" style="background-color: azure;height:100vh">
+    <div class="mask img-fluid">
+         <nav class="navbar navbar-expand-sm navbar-light text-dark fixed-top" style="background-color:#f1f1f1">
+               <div class="container-fluid">
+                 <a class="navbar-brand fs-1" href="#">MY PROFILE</a>
+             
+       <!--   <a class="navbar-brand" href="javascript:void(0)">PLOC</a> -->
+                 <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                   <span class="toggler-icon top-bar"></span>
+                   <span class="toggler-icon middle-bar"></span>
+                    <span class="toggler-icon bottom-bar"></span>
+                  </button>
+                 <div class="collapse navbar-collapse" id="mynavbar">
+                   <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-4">
+                     <li class="nav-item">
+                       <a class="nav-link me-3 " href="#home"> <i class="me-1 fa-solid fa-house fa-1x"></i>Home</a>
+                     </li>
+                    
+                     <li class="nav-item">
+                       <a class="nav-link me-3" href="#profile"><i class="me-1 fa-solid fa-user"></i>Profile</a>
+                     </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link me-3" href="#education"><i class="me-1 fa-solid fa-graduation-cap"></i>Education</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link me-3" href="#sports"><i class=" me-1 fa-solid fa-volleyball"></i>Sports</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link me-3" href="#skills"><i class="me-1 fa-solid fa-code"></i>Skills</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link me-3" href="#contact"><i class="me-1 fa-solid fa-phone me-1"></i>Contact </a>
+                      </li>
+                 </ul>                     
+                 </div>
+               </div>
+             </nav> 
+                 <p class="mt-5 pt-5 display-1 text-center" id="home">My Profile</p>
+                  <ul class="fs-1 text-center mt-5">
+                   <a class="nav-link me-3" href="#profile"><i class="me-1 fa-solid fa-user"></i>Profile</a>
+                   <a class="nav-link me-3" href="#education"><i class="fa-solid fa-graduation-cap"></i>Education</a>
+                   <a class="nav-link me-3" href="#sports"><i class=" me-1 fa-solid fa-volleyball"></i>Sports</a>
+                   <a class="nav-link me-3" href="#skills"><i class="me-1 fa-solid fa-code"></i>Skills</a>
+                   <a class="nav-link me-3" href="#contact"><i class="fa-solid fa-phone me-1"></i>Contact </a>
+                 </ul>
+            </div>
+      </div> 
+
+      <div class="container ">
+        <div class="row">
+            <div class="col-sm-6 mt-5">
+                
+                <div class="content mt-5 animate__animated wow animate__backInLeft">
+                    <h1 id="profile">Hello, I’m <span >Bala Ganesh.s</span></h1>
+                </div>            
+            </div>
+           
+            <div class="col-sm-6 mt-5">
+                <p class="h1 mt-5 pt-5 animate__animated wow animate__backInRight" style="font-size: 70px;">I'M  <span class="t">  </span> </p> 
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+            </div>
+          
+            <div class="col-sm-6 mt-4">
+                <div class="card" style="width: 20rem;">
+                    <img src="img.jpg.jpg" class="img-fluid animate__animated wow animate__zoomIn mt-1" alt="My image">
+                    <div class="card-body">
+                      <p class="card-text"></p>
+                    </div>
+                  </div>
+            </div>
+         
+            <div class="col-sm-6">
+                <h1 class="text-center display-5">Bio Data</h1>
+               <div class="card rounded animate__animated wow animate__backInRight">
+                <div class="card-body shadow rounded pt-3 mt-2">
+                    
+                    <h2>Name    : S.Bala Ganesh</h2>
+                    <h2>D.O.B   : 23/04/2004</h2>
+                    <h2>Gender  : Male</h2>
+                    <h2>Age : 18</h2>
+                    <h2>Address : 15th 5th street weavers colony Aruppukottai.</h2>
+                    <h2>Father Name : K.subramaniam</h2>
+                    <h2>Mother Name : S.Dhanalakshmi</h2>
+                </div>
+               </div>
+             </div>
+
+             <div class="col-sm-12">
+                <p id="education" class="display-5 mt-5 h2">Education Details</p>
+                <div class="table table-responsive mt-3">
+                    <table class="table fs-5 animate__animated wow animate__jello table-hover">
+                    <thead>
+                        <tr>
+                            <th>SI.NO</th>
+                            <th>Qualify Exam</th>
+                            <th>Instution Studied</th>
+                            <th>Month & Year</th>
+                            <th>Percentage</th>
+                        </tr>
+                    </thead>
+                        <tr>
+                            <th>1.</th>
+                            <th>S.S.L.C</th>
+                            <th>SMHSS</th>
+                            <th>2019</th>
+                            <th>73%</th>
+                        </tr>
+                        <tr>
+                            <th>2.</th>
+                            <th>H.S.C</th>
+                            <th>SMHSS</th>
+                            <th>2021</th>
+                            <th>80%</th>
+                        </tr>
+                        <tr>
+                            <th>3.</th>
+                            <th>DCE</th>
+                            <th>VSVN</th>
+                            <th>2022</th>
+                            <th>97%</th>
+                        </tr>
+                    </table>
+                </div>
+             </div>
+              
+             <div class="col-sm-12">
+                 <p class="mt-3 fs-1 display-5 sports" id="sports"><i class="fa-solid fa-medal "></i>ACHIVEMENTS & AWARDS</p>
+                 <div class="card animate__animated wow animate__fadeInDownBig">
+                    <div class="card-body lead shadow">
+                        <p>Zone level games & sports Game : Throw ball under:14 position: Runner</p>
+                        <p>Zone level games & sports Game : Throw ball under:17 position: Runner</p>
+                        <p>Zone level games & sports Game : Throw ball under:19 position: Winner</p>
+                    </div>
+                 </div>
+                 <p class="display-6 mt-5">certificate</p>
+             </div>
+               
+             <div class="col-sm-6">
+                <img src="1668602209625.jpg" alt="certificate 1"  class="me-5 mt-5 img-fluid animate__animated wow animate__backInLeft">
+             </div>
+             <div class="col-sm-6">
+                <img src="1668602209674.jpg" alt="certificate 2" height="200"  class="me-5 mt-5 img-fluid animate__animated wow animate__backInRight">
+             </div>
+             <div class="col-sm-6">
+                <img src="1668602209707.jpg" alt="certificate 3" height="200"  class="me-5 mt-5 img-fluid animate__animated wow animate__backInLeft">
+             </div>
+             <div class="col-sm-6">
+                <img src="1668602209737.jpg" alt="certificate 4" height="200"  class="me-5 mt-5 img-fluid animate__animated wow animate__backInRight"> 
+            </div>
+            <div class="col-sm-12">
+                <p class="display-5 text-center mt-5" id="skills">Skills</p>
+            </div>
+            <div class="col-sm-6">
+                <img src="cc1.jpeg" alt="code chef" class="mt-5 img-fluid animate__animated wow animate__backInLeft">
+            </div>
+            <div class="col-sm-6">
+                <p class="display-6 mt-5 animate__animated wow animate__backInRight">When I come and get time I will go to codechef website and write coding I have written a above 95 program in beginner level program I will write only cpp program in it</p>
+                <code>
+                    https://www.codechef.com/users/ganesh_564
+                </code>
+            </div>
+            <div class="col-sm-6">
+                <p class="display-6 mt-5 animate__animated wow animate__backInLeft">I finished 12th and lied on hackerrank website that I will do python coding and I got 63% 2 badges.</p>
+                <code>https://www.hackerrank.com/ganeshbala564</code>
+            </div>
+            <div class="col-sm-3">
+                <img src="hr1.jpg" alt="hackerrank" class=" mt-3 img-fluid animate__animated wow animate__backInRight">
+            </div>
+            <div class="col-sm-12">
+              <p class="display-5 mt-5">My quizz program</p>
+              <a href="cquizz.html" class="text-decoration-none">c quizz</a>
+            </div>
+        </div>
+     </div>
+    
+<footer class="page-footer shadow font-small mt-5 teal pt-4" style="background-color: azure">
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 text-center ">
+                <p class="text-center lead">This website is created by me, this is my own coding and I will display my details here.</p>
+                <p class="lead text-center" id="contact">contact us</p>
+                <i class="fs-1 fa-brands fa-square-whatsapp  pt-5 " title="+916380966016"></i>
+                <p>+916380966016</p>
+                <i class="fs-1 mt-5  fa-solid fa-envelope" title="ganeshbala564@gmail.com"></i>
+                <p>ganeshbala564@gmail.com</p>
+    
+            </div>
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-3">
+            </div>
+        </div>
+    </div>
+    <hr class="clearfix w-100 d-md-none pb-3">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2022 Copyright
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+    
+     
+    .nav-item::after{
+            content: '';width: 0px;height: 2px;background:rgb(166, 25, 231);display:block;margin: auto;
+            transition: 0.2s;
+        }
+        .nav-item:hover::after{
+            width: 100%;
+        }
+ .t{
+    color: #1f1f25;
+    font-size: 55px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: linear-gradient(120deg, #3ca1f3 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+thead{
+    background: linear-gradient(120deg, #3ca1f3 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+ h2{
+    color: #1f1f25;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: linear-gradient(120deg, #3ca1f3 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content h1{
+    color: #1f1f25;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 70%;
+}
+
+.content h1 span{
+    color: #fd4766;
+}
+     .navbar-toggler{
+       width: 20px;
+       height: 20px;
+       position: relative;
+       transition: .5s ease-in-out;
+     }
+     .navbar-toggler,
+     .navbar-toggler:focus,
+     .navbar-toggler:active,
+     .navbar-toggler-icon:focus{
+       outline: none;
+       box-shadow: none;
+       border: 0;
+     }
+     .navbar-toggler span{
+       margin: 0;
+       padding: 0;
+     }
+     .toggler-icon{
+       display: block;
+       position: absolute;
+       height: 3px;
+       width: 100%;
+       background-color: black;
+       border-radius: 1px;
+       opacity: 1;
+       left: 0;
+       transform: rotate(0deg);
+       transition: .25s ease-in-out;
+     }
+     .middle-bar{
+       margin-top: 0px;
+     }
+     .navbar-toggler .top-bar{
+       margin-top: 0px;
+       transform: rotate(135deg);
+     }
+     .navbar-toggler .middle-bar{
+       opacity: 0;
+       filter:alpha(opacity=0);
+     }
+     .navbar-toggler .bottom-bar{
+       margin-top: 0px;
+       transform: rotate(-135deg);
+     }
+     .navbar-toggler.collapsed .top-bar{
+       margin-top: -20px;
+       transform: rotate(0deg);
+     }
+     .navbar-toggler.collapsed .middle-bar{
+       opacity: 1;
+       filter:  alpha(opacity=100);
+     }
+     .navbar-toggler.collapsed .bottom-bar{
+       margin-top: 20px;
+       transform: rotate(0deg);
+     }
+     </style>
+
+<script>
+          //wow js
+  new WOW().init();
+  //Typed Animation
+  var typed = new Typed('.t', {
+  strings: ['W','PROGRAMMER', 'WEB DEVELOPER',],
+  typeSpeed:150,
+  backSpeed:150,
+  loop:true,
+  smartBackspace: true // Default value
+});
+    </script>
+</body>
+</html>
